@@ -3,8 +3,8 @@ function calculateTip(){
     let service = document.querySelector("#serviceSelector").value;
     let numOfPeople = document.querySelector(".peopleAmt").value;
     
-    if (billAmt === 0 || service === 0){
-        alert("Please enter some values");
+    if (billAmt == 0 || service == 0){
+        alert("Please enter a bill amount and select tip service level");
         return;
     }
 
